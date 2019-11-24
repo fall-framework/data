@@ -1,0 +1,17 @@
+{
+  "name": "fall/data",
+  "description": "Library containing classes to manage database",
+  "require": {
+    "php": "^7.1",
+    "fall/core": "dev-master",
+    "fall/context": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "fall\\data\\": "src"
+    }
+  }
+}
